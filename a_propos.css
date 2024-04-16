@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+     
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    max-height: 180px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+li{
+    display: flex;
+    list-style-type: none;
+    padding-left: 50px;
+}
+a{
+    text-decoration: none;     
+    color: grey; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 105x;
+    margin-top: 20px;
+}
+a:hover {
+    color: blue;
+}
+
+h1{display: flex; justify-content: center;}
+
+.photo_profil {height: 40em; width: 35em}
+
+
+
+p{display: flex; flex-direction: column; padding: 30px; text-align: justify;}
+
+footer{display: flex; justify-content: center; gap: 40px;}
