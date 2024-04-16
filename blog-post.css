@@ -50,11 +50,48 @@ p , h1 , h2 , h3 , h4 {
     padding-top: 17px;
     padding-bottom: 17px;
 }
+p {
+    opacity: 0.7;
+    font-size: 20px;
+}
 .police {
     font-family: "Abril Fatface", serif;
   font-weight: bold;
   font-style: normal;
   color:rgb(204, 0, 82) ;
-  font-size: 40px;
+  font-size: 50px;
+  opacity: 0.7;
+}
 
+h2{
+    color: rgb(3, 3, 151);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3{
+    color: rgb(3, 3, 151);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h4 {
+    font-family: "Abril Fatface", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color:rgb(204, 0, 82) ;
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+.pied-de-page img{
+float: right;
+margin-left: 10px;
+
+}
+.illustration{
+    width: 350px;
+    margin-top: -110px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
