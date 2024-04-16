@@ -5,20 +5,20 @@
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between
-     
+    justify-content: space-between;
 }
 
 .logo{
     display: flex;
-    justify-content: space-between;
-    max-height: 180px;
+    max-height: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
     
 }
 ul{
     display: flex;
-    justify-content: space-between;
     margin-top: 60px;
+    margin-right: 150px;
 }
 li{
     display: flex;
@@ -29,7 +29,7 @@ a{
     text-decoration: none;     
     color: grey; 
     font-family: "Montserrat", sans-serif;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 a:hover {
     color: blue;
@@ -45,8 +45,8 @@ a:hover {
 p , h1 , h2 , h3 , h4 {
     display: flex;
     text-align: justify;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 17px;
     padding-bottom: 17px;
 }
@@ -90,8 +90,13 @@ margin-left: 10px;
 
 }
 .illustration{
-    width: 350px;
+    width: 25%;
     margin-top: -110px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.auteur{
+    padding-right: 60px;
+    font-size: 15px;
+
 }
