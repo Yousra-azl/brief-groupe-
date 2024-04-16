@@ -39,10 +39,14 @@ a:hover {
 
 h1{display: flex; justify-content: center;}
 
-.photo_profil {height: 40em; width: 35em}
-
-
+.photo_profil {height:25em; width: 30em}
 
 p{display: flex; flex-direction: column; padding: 30px; text-align: justify;}
 
-footer{display: flex; justify-content: center; gap: 40px;}
+footer{display: flex; flex-direction: column; align-items: center; gap: 40px;}
+
+.illustration{height: 10em; width: 10em;}
+
+.auteur{}
+
+
