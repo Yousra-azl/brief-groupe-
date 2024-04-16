@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -8,7 +12,7 @@ nav{
 .logo{
     display: flex;
     justify-content: space-between;
-    max-height: 150px;
+    max-height: 180px;
     
 }
 ul{
@@ -24,4 +28,33 @@ li{
 a{
     text-decoration: none;     
     color: grey; 
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+a:hover {
+    color: blue;
+}
+.image1 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+p , h1 , h2 , h3 , h4 {
+    display: flex;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.police {
+    font-family: "Abril Fatface", serif;
+  font-weight: bold;
+  font-style: normal;
+  color:rgb(204, 0, 82) ;
+  font-size: 40px;
+
 }
