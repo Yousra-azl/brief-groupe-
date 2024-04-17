@@ -33,7 +33,7 @@ nav a{
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     margin-top: 20px;
-    font-weight: 800;
+    font-weight: 700;
 }
 nav a:hover {
     color: rgb(153, 0, 255);
@@ -113,23 +113,25 @@ p {
     display: flex;
     flex-direction: row;
     margin-top: -60px;
+    gap: 70px;
+    margin-left: 75px;
 }
 .twitter {
     width: 20px;
     height: 20px;
     margin-top: -34px;
-    margin-left: 150px;
+    margin-left: 145px;
 }
 .linkedin {
     width: 18px;
     height: 18px;
-    margin-left: 350px;
+    margin-left: 330px;
     margin-top: -21px;
 }
 .medium {
     width: 18px;
     height: 18px;
-    margin-left: 545px;
+    margin-left: 520px;
     margin-top: -17px;
 }
 .date1 {
@@ -162,30 +164,11 @@ h3, h4, h5, h6, h7, h8 {
     width: 100%;
     margin-left: 41px;
 }
-.post1 {
+.post1, .post2 {
     display: flex;
     flex-direction: column;
 }
-.post2 {
-    display: flex;
-    flex-direction: column;
-}
-.post3 {
-    margin-top: -130px;
-    display: flex;
-    flex-direction: column;
-}
-.post4 {
-    margin-top: -130px;
-    display: flex;
-    flex-direction: column;
-}
-.post5 {
-    margin-top: -130px;
-    display: flex;
-    flex-direction: column;
-}
-.post6 {
+.post3, .post4, .post5, .post6 {
     margin-top: -130px;
     display: flex;
     flex-direction: column;
@@ -220,4 +203,10 @@ a {
 }
 .grid a:hover {
     transform: scale(1.1);
+}
+.h7, .h8 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: rgb(219, 80, 103);
+    font-size: 25px;
 }
