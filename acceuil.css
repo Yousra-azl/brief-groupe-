@@ -29,7 +29,7 @@ nav{
 
 .logo:hover {
     transform: scale(1.1);
-    transition: all .3s; 
+    transition: all .8s; 
     cursor: pointer;
 }
 
@@ -108,15 +108,15 @@ h2 {
 }
 
 .boutton1:hover {
-    background: linear-gradient(rgba(65, 156, 218, 0.5), rgb(69, 173, 241, 0.5));
+    background: linear-gradient(rgb(73, 176, 245), rgb(97, 192, 255));
 }
 
 .boutton2:hover {
-    background: linear-gradient(rgba(65, 156, 218, 0.5), rgba(2, 85, 139, 0.5));
+    background: linear-gradient(rgb(54, 134, 187), rgb(1, 56, 92));
 }
 
 .boutton3:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(34, 39, 43, 0.5));
+    background: linear-gradient(rgb(37, 37, 37), rgb(58, 64, 70));
 }
 
 .boutton1 {
@@ -203,8 +203,14 @@ h2 {
 }
 
 .box {
-    width: 112%; height: 45%;  
+    width: 112%; height: 45%;
+    cursor: pointer;  
 } 
+
+.box:hover {
+    transform: scale(1.1);
+    transition: all .8s;
+}
 
 h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
@@ -247,7 +253,7 @@ h3, h4, h5, h6 {
     margin-left: 30px;
 }
 
-.grid a:hover {
+.ensavoirplus:hover {
     transform: scale(1.1);
     transition: all .3s;
 }
