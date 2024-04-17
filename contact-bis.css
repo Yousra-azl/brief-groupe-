@@ -1,0 +1,9 @@
+* {margin: 0;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 20px;
+}
+
