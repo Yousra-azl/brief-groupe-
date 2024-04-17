@@ -16,7 +16,7 @@ nav{
     margin-left: -180px;
     
 }
-ul{
+nav ul{
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
@@ -38,3 +38,83 @@ nav a{
 nav a:hover {
     color: rgb(153, 0, 255);
 }
+h1 {
+    font-family: "Abril Fatface", sans-serif;
+    color: rgb(219, 80, 103);
+    font-size: 40px;
+    width: 40%;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.section1 {
+    width: 20%;
+    margin-left: 300px;
+}
+.section2 {
+    margin-left: 250px;
+    margin-top: 5px;
+}
+.twitter, .linkedin, .medium {
+    width: 2.5%; height: 2.5%;
+    margin-top: 50px;
+}
+.section1 li {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(104, 104, 104); 
+    font-weight: 300;
+    display: flex;
+    margin-top: 20px;
+}
+.adresse {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(88, 88, 88); 
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: -60px;
+    margin-top: 100px;
+}
+aside {
+    width: 40%;
+    margin-left: 580px;
+    margin-top: -450px;
+}
+.infopratique {
+        font-family: "Montserrat", sans-serif;
+        color: rgb(88, 88, 88); 
+        font-weight: 800;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: -60px;
+        margin-top: 50px;
+}
+form {
+    width: 100%;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+    background: rgb(250, 250, 250);
+}
+form p {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.select {
+    width: 200px;
+}
+form input {
+    margin-top: 50px;
+    width: 300px;
+    height: 30px;
+    border-radius: none;
+}
+form ::placeholder {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.weight {
+    font-weight: 800;
+}
+.messageag {}
