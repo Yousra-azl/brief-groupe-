@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    max-height: 180px;
+    margin-left: -180px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+li{
+    display: flex;
+    list-style-type: none;
+    margin-right: 40px;
+    margin-left: -60px;
+}
+nav a{
+    text-decoration: none;     
+    color: grey; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+nav a:hover {
+    color: rgb(153, 0, 255);
+}
