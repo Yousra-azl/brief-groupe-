@@ -1,12 +1,22 @@
+/* all */
+
 * {
     margin: 0;
-   margin-left: 40px;
-   margin-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+
+/* nav + header */
+
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: all .3s; 
 }
 
 .logo{
@@ -16,17 +26,13 @@ nav{
     margin-left: -180px;
     
 }
+
 nav ul{
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
 }
-li{
-    display: flex;
-    list-style-type: none;
-    margin-right: 40px;
-    margin-left: -60px;
-}
+
 nav a{
     text-decoration: none;     
     color: grey; 
@@ -35,9 +41,17 @@ nav a{
     margin-top: 20px;
     font-weight: 700;
 }
+
 nav a:hover {
     color: rgb(153, 0, 255);
 }
+
+/* main */
+
+main {
+    margin-left: 100px;
+}
+
 h1 {
     font-family: "Abril Fatface", sans-serif;
     color: rgb(219, 80, 103);
@@ -46,18 +60,16 @@ h1 {
     margin-left: 300px;
     margin-top: 20px;
 }
-.section1 {
-    width: 20%;
-    margin-left: 300px;
+
+/* section 1 */
+
+li{
+    display: flex;
+    list-style-type: none;
+    margin-right: 40px;
+    margin-left: -60px;
 }
-.section2 {
-    margin-left: 250px;
-    margin-top: 5px;
-}
-.twitter, .linkedin, .medium {
-    width: 2.5%; height: 2.5%;
-    margin-top: 50px;
-}
+
 .section1 li {
     font-family: "Montserrat", sans-serif;
     color: rgb(104, 104, 104); 
@@ -65,21 +77,19 @@ h1 {
     display: flex;
     margin-top: 20px;
 }
-.adresse {
+
+.section1 {
+    width: 20%;
+    margin-left: 300px;
+}
+
+.section1 ul a {
     font-family: "Montserrat", sans-serif;
-    color: rgb(88, 88, 88); 
-    font-weight: 800;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: -60px;
-    margin-top: 100px;
+    color: rgb(104, 104, 104); 
+    font-weight: 300;
+    margin-left: -1px;
 }
-aside {
-    width: 40%;
-    margin-left: 580px;
-    margin-top: -450px;
-}
+
 .infopratique {
         font-family: "Montserrat", sans-serif;
         color: rgb(88, 88, 88); 
@@ -87,63 +97,124 @@ aside {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        margin-left: -60px;
-        margin-top: 50px;
+        margin-left: 0px;
+        margin-top: 30px;
 }
+
+.adresse {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(88, 88, 88); 
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+
+/* section 2 */
+
+.section2 {
+    margin-left: 230px;
+    margin-top: 5px;
+}
+
+.twitter, .linkedin, .medium {
+    width: 2.5%; height: 2.5%;
+    margin-top: 50px;
+}
+
+.linkedin {
+    margin-left: -60px;
+}
+
+.medium {
+    margin-left: -60px;
+}
+
+.section2 a:hover {
+    cursor: pointer;
+}
+
+.section2 img:hover {
+    transform: scale(1.5);
+    transition: all .3s;
+}
+
+/* aside + form */
+
+aside {
+    width: 40%;
+    margin-left: 580px;
+    margin-top: -450px;
+}
+
 form {
     width: 100%;
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
     margin: 20px;
-    margin-top: -550px;
-    margin-left: 150px;
+    margin-top: -600px;
+    margin-left: 230px;
 }
+
 form p {
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 2px;
     margin-bottom: 25px;
 }
+
 .select {
     width: 310px;
     margin: 60px;
     margin-left: 39px;
     height: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
+    padding-left: 5px;
     font-family: "Montserrat", sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     border-style: none;
     border-radius: 5px;
+    background-color: rgba(104, 104, 104, 0.2);
 }
+
 form input {
     margin-top: 50px;
     width: 300px;
     height: 30px;
     border-style: hidden;
-    background-color: rgba(185, 185, 185, 0.2);
+    background-color: rgba(104, 104, 104, 0.2);
     border-radius: 5px;
+    font-size: 18px;
 }
+
 form ::placeholder {
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
     color: black;
 }
+
 .weight {
     font-weight: 800;
 }
+
 .messageag {
     margin-top: 30px;
     height: 80px;
     text-align: center;
     resize: vertical;
 }
+
 textarea {
     text-align: left;
     resize: vertical;
-    background-color: rgba(185, 185, 185, 0.2);
+    background-color: rgba(104, 104, 104, 0.2);
     border-radius: 5px;
     border-style: hidden;
+    font-size: 15px;
 }
-.boutton3 {
+
+.bouttonenvoyer {
     width: 170px;
     height: 50px;
     background: rgb(0, 0, 0);
@@ -156,7 +227,13 @@ textarea {
     margin-left: 95px;
     border-radius: 10px;
 }
-.boutton3:hover {
+
+.bouttonenvoyer:hover {
     background: linear-gradient(rgb(88, 177, 61), rgb(91, 134, 108));
+    cursor: pointer;
+}
+
+
+.select:hover {
     cursor: pointer;
 }

@@ -1,12 +1,36 @@
+/* all */
+
 * {
     margin: 0;
    margin-left: 40px;
    margin-right: 40px;
 }
+
+p {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(104, 104, 104); 
+    margin-top: 30px;
+    width: 36%;
+    margin-left: 115px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* nav + header */
+
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: all .3s; 
+    cursor: pointer;
 }
 
 .logo{
@@ -16,17 +40,20 @@ nav{
     margin-left: -180px;
     
 }
+
 ul{
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
 }
+
 li{
     display: flex;
     list-style-type: none;
     margin-right: 40px;
     margin-left: -60px;
 }
+
 nav a{
     text-decoration: none;     
     color: grey; 
@@ -35,15 +62,20 @@ nav a{
     margin-top: 20px;
     font-weight: 700;
 }
+
 nav a:hover {
     color: rgb(153, 0, 255);
 }
+
+/* section 1 */
+
 .section1 {
     display: flex;
     flex-direction: column;
     margin-left: 35px;
     margin-top: 50px;
 }
+
 h1 {
     font-family: "Abril Fatface", sans-serif;
     color: rgb(219, 80, 103);
@@ -51,6 +83,7 @@ h1 {
     width: 40%;
     margin-left: 115px;
 }
+
 h2 {
     font-family: "Montserrat", sans-serif;
     color: rgb(68, 68, 68);
@@ -60,14 +93,7 @@ h2 {
     width: 40%;
     margin-left: 115px;
 }
-p {
-    font-family: "Montserrat", sans-serif;
-    color: rgb(104, 104, 104); 
-    margin-top: 30px;
-    width: 36%;
-    margin-left: 115px;
-    font-weight: 500;
-}
+
 .imageillu {
     width: 30%; height: 10%;
     display: flex;
@@ -76,6 +102,23 @@ p {
     margin-top: -320px;
     margin-right: 300px;
 }
+
+.boutton1, .boutton2, .boutton3, .twitter, .linkedin, .medium:hover {
+    cursor: pointer;
+}
+
+.boutton1:hover {
+    background: linear-gradient(rgba(65, 156, 218, 0.5), rgb(69, 173, 241, 0.5));
+}
+
+.boutton2:hover {
+    background: linear-gradient(rgba(65, 156, 218, 0.5), rgba(2, 85, 139, 0.5));
+}
+
+.boutton3:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(34, 39, 43, 0.5));
+}
+
 .boutton1 {
     width: 170px;
     height: 50px;
@@ -86,6 +129,7 @@ p {
     font-family: "Montserrat", sans-serif;
     font-size: 10px;
 }
+
 .boutton2 {
     width: 170px;
     height: 50px;
@@ -97,6 +141,7 @@ p {
     font-size: 10px;
     margin-left: -95px;
 }
+
 .boutton3 {
     width: 170px;
     height: 50px;
@@ -109,6 +154,7 @@ p {
     text-align: center;
     margin-left: -95px;
 }
+
 .lienboutton {
     display: flex;
     flex-direction: row;
@@ -116,30 +162,37 @@ p {
     gap: 70px;
     margin-left: 75px;
 }
+
 .twitter {
     width: 20px;
     height: 20px;
     margin-top: -34px;
     margin-left: 145px;
 }
+
 .linkedin {
     width: 18px;
     height: 18px;
     margin-left: 330px;
     margin-top: -21px;
 }
+
 .medium {
     width: 18px;
     height: 18px;
     margin-left: 520px;
     margin-top: -17px;
 }
+
+/* section 2 */
+
 .date1 {
     font-size: 15px;
     font-weight: 600;
     margin-left: 45px;
     color: rgb(70, 70, 70);
 }
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -148,31 +201,37 @@ p {
     margin-right: 420px;
     margin-left: 100px;
 }
+
 .box {
     width: 112%; height: 45%;  
 } 
-h3, h4, h5, h6, h7, h8 {
+
+h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: rgb(219, 80, 103);
     font-size: 25px;
     margin-left: -2px;
 }
+
 .p1 {
     font-family: "Montserrat", sans-serif;
     color: rgb(104, 104, 104); 
     width: 100%;
     margin-left: 41px;
 }
+
 .post1, .post2 {
     display: flex;
     flex-direction: column;
 }
+
 .post3, .post4, .post5, .post6 {
     margin-top: -130px;
     display: flex;
     flex-direction: column;
 }
+
 .ensavoirplus {
     margin-top: 40px;
     font-family: "Montserrat", sans-serif;
@@ -181,29 +240,18 @@ h3, h4, h5, h6, h7, h8 {
     font-size: 20px;
     font-weight: 400;
 }
+
 .ligne {
     width: 150px;
     height: 18px;
     margin-left: 30px;
 }
-a {
-    text-decoration: none;
-}
-.boutton1, .boutton2, .boutton3, .twitter, .linkedin, .medium:hover {
-    cursor: pointer;
-}
-.boutton1:hover {
-    background: linear-gradient(rgba(65, 156, 218, 0.5), rgb(69, 173, 241, 0.5));
-}
-.boutton2:hover {
-    background: linear-gradient(rgba(65, 156, 218, 0.5), rgba(2, 85, 139, 0.5));
-}
-.boutton3:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(34, 39, 43, 0.5));
-}
+
 .grid a:hover {
     transform: scale(1.1);
+    transition: all .3s;
 }
+
 .h7, .h8 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;

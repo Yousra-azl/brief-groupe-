@@ -14,12 +14,12 @@
 </head>
 <body>
 
-    <!-- nav -->
+    <!-- nav + header -->
 
     <header>
     <nav>
 
-        <img src="images/logo.png" class="logo" alt="logo">
+        <a href="acceuil.html"><img src="images/logo.png" class="logo" alt="logo"></a>
         <ul>
             <li>
                 <a href="blog-post.html">BLOG</a>
@@ -39,49 +39,58 @@
     </nav>
 </header>
 
+<!-- main -->
+
 <main>
 
     <h1>Contactez-nous</h1>
 
+<!-- section 1 -->
+
     <section class="section1">
         <ul>
-            <span class="adresse">Adresse</span>
+            <li><span class="adresse">Adresse</span></li>
             <li>06 84 56 74 95</li>
             <li>10 Parc club du millénaire</li>
             <li>1025 Rue Henri Becquerel Box 95</li>
             <li>59 300 Valenciennes</li>
         </ul>
         <ul>
-            <span class="infopratique">Informations pratiques</span>
-            <li>contact@squedron.com</li>
+            <li><span class="infopratique">Informations pratiques</span></li>
+            <li><a href="mailto:contact@squedrong.com">contact@squedrong.com</a></li>
         </ul>
 
     </section>
 
+    <!-- section 2 -->
+
     <section class="section2">
-        <img src="images/icons8-twitter-noir.png" class="twitter" alt="twitter">
-        <img src="images/icons8-linkedin-30.png" class="linkedin" alt="linkedin">
-        <img src="images/icons8-logo-moyen-50.png" class="medium" alt="medium">
+        <a href="https://twitter.com/"><img src="images/icons8-twitter-noir.png" class="twitter" alt="twitter"></a>
+        <a href="https://fr.linkedin.com/"><img src="images/icons8-linkedin-30.png" class="linkedin" alt="linkedin"></a>
+        <a href="https://medium.com/"><img src="images/icons8-logo-moyen-50.png" class="medium" alt="medium"></a>
 
     </section>
 
 </main>
+
+<!-- aside + form -->
 
 <aside>
     <form>
 
         <input type="text" placeholder="Nom *" required>
         <input type="email" placeholder="Mail *" required>
-        <input type="tel" placeholder="Téléphone *" required>
+        <input type="tel" placeholder="Téléphone *" maxlength="10" required>
         <select name="dm" class="select">
             <option value="dm1">Demande d'informations</option>
             <option value="d2">Demande de devis</option>
             <option value="d3">Recrutement</option>
     </select>
         <p>Votre message</p>
-        <textarea rows="5" cols="40"></textarea><br><br><br>
-        <button type="submit" class="boutton3">Envoyer</button><br><br>
-        <span class="weight">*Champs obligatoires</span>
+        <textarea rows="5" cols="36"></textarea><br><br><br>
+        <button type="submit" class="bouttonenvoyer">Envoyer</button><br><br>
+        <span class="weight">* Champs obligatoires</span>
 
     </form>
 </aside>
+</body>
