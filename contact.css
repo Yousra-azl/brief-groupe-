@@ -132,4 +132,25 @@ form ::placeholder {
 .messageag {
     margin-top: 30px;
     height: 80px;
+    text-align: center;
+    resize: vertical;
+}
+textarea {
+    text-align: left;
+    resize: vertical;
+    background-color: rgba(185, 185, 185, 0.2);
+    border-radius: 5px;
+    border-style: hidden;
+}
+.boutton3 {
+    width: 170px;
+    height: 50px;
+    background: linear-gradient(rgb(54, 36, 216), rgb(23, 23, 85));
+    color: white;
+    border: none;
+    margin-top: -10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 95px;
 }
