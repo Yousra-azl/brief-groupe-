@@ -2,6 +2,8 @@
     margin: 0;
 
 }
+
+/* bare de navigation*/
 nav{
     display: flex;
     flex-direction: row;
@@ -15,35 +17,55 @@ nav{
     max-height: 150px;
     margin-left: 150px;
     margin-right: 150px;
-    
 }
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: all .8s; 
+    cursor: pointer;
+}
+
 ul{
     display: flex;
     margin-top: 60px;
     margin-right: 150px;
+    justify-content: space-around;
 }
+
 li{
     display: flex;
     list-style-type: none;
     padding-left: 50px;
 }
-a{
+
+nav a{
     text-decoration: none;     
     color: grey; 
     font-family: "Montserrat", sans-serif;
-    margin-top: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
 }
-a:hover {
-    color: blue;
+
+nav a:hover {
+    color: rgb(153, 0, 255);
 }
+
+/* bare de navigation*/
+
+/* image principale */
 .image1 {
-    width: 70%;
+    width: 82em;
     height: auto;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
+/* image principale */
+
+/* corps */
+
 p , h1 , h2 , h3 , h4 {
     display: flex;
     text-align: justify;
@@ -90,15 +112,19 @@ h4 {
   opacity: 0.7;
 }
 
+/* corps */
+
+/* pieds de page */
+
 .pied-de-page img{
 float: right;
-margin-left: 10px;
+margin-left: 90px;
 
 }
 .illustration{
-    width: 25%;
-    margin-top: -110px;
-    margin-left: 15%;
+    width: 20em;
+    margin-top: -80px;
+    margin-left: 20%;
     margin-right: 15%;
 }
 .auteur{
@@ -107,8 +133,15 @@ margin-left: 10px;
 }
 .réseau {
     width: 10%;
-    margin-right: 50px;
-    margin-left: 10px;
-    margin-top: 60px;
+    margin-right: 45px;
+    padding-left: 20px;
+    margin-top: 40px;
     justify-content: center;
 }
+.réseau:hover {
+    transform: scale(1.1);
+    transition: all .8s; 
+    cursor: pointer;
+}
+
+/* pieds de page */
