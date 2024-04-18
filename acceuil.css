@@ -2,8 +2,8 @@
 
 * {
     margin: 0;
-   margin-left: 40px;
-   margin-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 p {
@@ -38,7 +38,7 @@ nav{
     justify-content: flex-start;
     max-height: 180px;
     margin-left: -180px;
-    
+    transition: 0.8s;
 }
 
 ul{
@@ -205,6 +205,7 @@ h2 {
 .box {
     width: 112%; height: 45%;
     cursor: pointer;  
+    transition: 0.5s;
 } 
 
 .box:hover {
@@ -245,6 +246,7 @@ h3, h4, h5, h6 {
     color: rgb(202, 58, 82);
     font-size: 20px;
     font-weight: 400;
+    transition: 0.5s;
 }
 
 .ligne {
